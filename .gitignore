@@ -1,4 +1,12 @@
+# Ignore the virtual environment
+venv/
+
+# Ignore the local cache
 nasa_cache.json
+
+# Ignore Python's internal folders
 __pycache__/
-.env
 *.pyc
+
+# Ignore secret environment files
+.env
